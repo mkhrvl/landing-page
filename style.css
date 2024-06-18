@@ -197,3 +197,16 @@ body {
     border: 3px solid var(--clr-primary);
     align-self: center;
 }
+
+/* Footer Section */
+
+.footer {
+    background-color: var(--clr-bg);
+    padding: 2.5em 0;
+}
+
+.footer__text {
+    color: var(--clr-primary);
+    font-size: var(--fs-sm);
+    text-align: center;
+}
