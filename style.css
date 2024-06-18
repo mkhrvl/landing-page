@@ -14,7 +14,7 @@
     --fs-sm: 18px;
 
     /* PADDING */
-    --padding-page-horizontal: 18em;
+    --padding-page-horizontal: 13.8em;
 }
 
 *,
@@ -30,6 +30,7 @@ body {
     flex-flow: column nowrap;
     font-family: "Roboto", sans-serif;
     height: 100svh;
+    overflow: hidden;
 }
 
 /* Header Section */
