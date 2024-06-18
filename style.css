@@ -1,0 +1,15 @@
+:root {
+    /* COLOR */
+    --clr-bg: #1F2937;
+    --clr-cta: #3882f6;
+    --clr-primary: #F9FAF8;
+    --clr-secondary: #E5E7EB;
+
+    /* FONT SIZE */
+    --fs-xl: 48px;
+    --fs-lg: 36px;
+    --fs-md: 24px;
+    --fs-s: 18px;
+}
+
+
