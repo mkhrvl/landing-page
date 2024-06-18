@@ -181,14 +181,19 @@ body {
 
 .btn {
     border-radius: 8px;
-    border-style: none;
     color: var(--clr-primary);
     font-size: var(--fs-sm);
     font-weight: bold;
     padding: 0.5em 2em;
     text-align: center;
+    background-color: var(--clr-cta);
 }
 
 .btn--primary {
-    background-color: var(--clr-cta);
+    border-style: none;
+}
+
+.btn--outline {
+    border: 3px solid var(--clr-primary);
+    align-self: center;
 }
