@@ -39,7 +39,7 @@ body {
     background-color: var(--clr-bg);
     display: flex;
     justify-content: space-between;
-    padding: 1em var(--padding-page-horizontal);
+    padding: 1em var(--padding-page-horizontal) 0;
 }
 
 .header__logo {
