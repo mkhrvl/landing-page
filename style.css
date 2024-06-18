@@ -131,6 +131,32 @@ body {
     margin-bottom: 0.3em;
 }
 
+/* Quote Section */
+
+.quote {
+    background-color: var(--clr-secondary);
+    padding: 8em 0;
+    display: flex;
+    justify-content: center;
+    color: var(--clr-bg);
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.quote__text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: var(--fs-lg);
+    width: 790px;
+}
+
+.quote__source {
+    font-size: var(--fs-md);
+    font-weight: 500;
+    width: 790px;
+    text-align: right;
+}
+
 /* Button */
 
 .btn {
