@@ -12,6 +12,9 @@
     --fs-lg: 36px;
     --fs-md: 24px;
     --fs-s: 18px;
+
+    /* PADDING */
+    --padding-page-horizontal: 12em;
 }
 
 *,
@@ -23,5 +26,33 @@
 }
 
 body {
+    display: flex;
+    flex-flow: column nowrap;
     font-family: "Roboto", sans-serif;
+    height: 100svh;
+}
+
+.header {
+    align-items: center;
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em var(--padding-page-horizontal);
+}
+
+.header__logo {
+    color: var(--clr-primary);
+    font-size: var(--fs-md);
+}
+
+.header__nav {
+    display: flex;
+    gap: 1.5em;
+}
+
+.header__nav a {
+    color: var(--clr-secondary);
+    font-size: var(--fs-s);
+    font-weight: 300;
+    text-decoration: none;
 }
