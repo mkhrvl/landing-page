@@ -157,6 +157,26 @@ body {
     text-align: right;
 }
 
+/* Call to Action Section */
+
+.call-to-action {
+    padding: 8em var(--padding-page-horizontal);
+}
+
+.call-to-action__wrapper {
+    background-color: var(--clr-cta);
+    color: var(--clr-primary);
+    padding: 3em 8em;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.call-to-action__text {
+    color: var(--clr-secondary);
+    font-size: var(--fs-sm);
+}
+
 /* Button */
 
 .btn {
