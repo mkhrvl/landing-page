@@ -110,8 +110,8 @@ body {
 .gallery__container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     gap: 3.5em;
+    justify-content: center;
 }
 
 .gallery__card {
@@ -124,37 +124,37 @@ body {
 }
 
 .gallery__img {
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
     border-radius: 16px;
+    height: 170px;
     margin-bottom: 0.3em;
+    object-fit: cover;
+    width: 100%;
 }
 
 /* Quote Section */
 
 .quote {
-    background-color: var(--clr-secondary);
-    padding: 8em 0;
-    display: flex;
-    justify-content: center;
-    color: var(--clr-bg);
-    flex-flow: column nowrap;
     align-items: center;
+    background-color: var(--clr-secondary);
+    color: var(--clr-bg);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 8em 0;
 }
 
 .quote__text {
-    font-weight: 300;
-    font-style: italic;
     font-size: var(--fs-lg);
+    font-style: italic;
+    font-weight: 300;
     width: 790px;
 }
 
 .quote__source {
     font-size: var(--fs-md);
     font-weight: 500;
-    width: 790px;
     text-align: right;
+    width: 790px;
 }
 
 /* Call to Action Section */
@@ -165,11 +165,11 @@ body {
 
 .call-to-action__wrapper {
     background-color: var(--clr-cta);
-    color: var(--clr-primary);
-    padding: 3em 8em;
-    display: flex;
     border-radius: 8px;
+    color: var(--clr-primary);
+    display: flex;
     justify-content: space-between;
+    padding: 3em 8em;
 }
 
 .call-to-action__text {
@@ -180,13 +180,13 @@ body {
 /* Button */
 
 .btn {
+    background-color: var(--clr-cta);
     border-radius: 8px;
     color: var(--clr-primary);
     font-size: var(--fs-sm);
     font-weight: bold;
     padding: 0.5em 2em;
     text-align: center;
-    background-color: var(--clr-cta);
 }
 
 .btn--primary {
@@ -194,8 +194,8 @@ body {
 }
 
 .btn--outline {
-    border: 3px solid var(--clr-primary);
     align-self: center;
+    border: 3px solid var(--clr-primary);
 }
 
 /* Footer Section */
