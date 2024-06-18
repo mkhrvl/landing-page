@@ -14,7 +14,7 @@
     --fs-sm: 18px;
 
     /* PADDING */
-    --padding-page-horizontal: 12em;
+    --padding-page-horizontal: 18em;
 }
 
 *,
@@ -31,6 +31,8 @@ body {
     font-family: "Roboto", sans-serif;
     height: 100svh;
 }
+
+/* Header Section */
 
 .header {
     align-items: center;
@@ -55,4 +57,53 @@ body {
     font-size: var(--fs-sm);
     font-weight: 300;
     text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: var(--clr-bg);
+    display: flex;
+    padding: 7em var(--padding-page-horizontal);
+}
+
+.hero__container {
+    flex: 1;
+    padding-right: 3em;
+}
+
+.hero__header {
+    color: var(--clr-primary);
+    font-size: var(--fs-xl);
+    font-weight: bolder;
+}
+
+.hero__text {
+    color: var(--clr-secondary);
+    font-size: var(--fs-sm);
+    font-weight: 300;
+    margin-bottom: 0.6em;
+}
+
+/* TODO: make this responsive to height */
+
+.hero__img {
+    flex: 1;
+    max-height: 225px;
+    object-fit: cover;
+}
+
+/* Button */
+
+.btn {
+    border-radius: 5px;
+    border-style: none;
+    color: var(--clr-primary);
+    font-weight: bold;
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+.btn--primary {
+    background-color: var(--clr-cta);
 }
