@@ -6,6 +6,7 @@
     --clr-cta: #3882f6;
     --clr-primary: #F9FAF8;
     --clr-secondary: #E5E7EB;
+    --clr-dark-secondary: #5b6470;
 
     /* FONT SIZE */
     --fs-xl: 48px;
@@ -92,6 +93,42 @@ body {
     flex: 1;
     max-height: 230px;
     object-fit: cover;
+}
+
+/* Gallery Section */
+
+.gallery {
+    text-align: center;
+    padding: 3em 0 8em;
+}
+
+.gallery__header {
+    font-size: var(--fs-lg);
+    margin-bottom: 1.5em;
+}
+
+.gallery__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3.5em;
+}
+
+.gallery__card {
+    width: 170px;
+}
+
+.gallery__text {
+    color: var(--clr-dark-secondary);
+    font-size: var(--fs-sm);
+}
+
+.gallery__img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 0.3em;
 }
 
 /* Button */
