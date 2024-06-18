@@ -70,7 +70,8 @@ body {
 
 .hero__container {
     flex: 1;
-    padding-right: 3em;
+    max-width: 50%;
+    padding-right: 6em;
 }
 
 .hero__header {
@@ -90,14 +91,14 @@ body {
 
 .hero__img {
     flex: 1;
-    max-height: 225px;
+    max-height: 230px;
     object-fit: cover;
 }
 
 /* Button */
 
 .btn {
-    border-radius: 5px;
+    border-radius: 8px;
     border-style: none;
     color: var(--clr-primary);
     font-size: var(--fs-sm);
