@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Landing Page</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
         <header class="header">
-            <h1 class="header__logo">Header Logo</h1>
-            <nav class="header__nav">
-                <a href="#">header link one</a>
-                <a href="#">header link two</a>
-                <a href="#">header link three</a>
-            </nav>
+            <div class="header__container">
+                <h1 class="header__logo">Header Logo</h1>
+                <nav class="header__nav">
+                    <a href="#">header link one</a>
+                    <a href="#">header link two</a>
+                    <a href="#">header link three</a>
+                </nav>
+            </div>
         </header>
 
         <main>
             <section class="hero">
-                <div class="hero__container">
-                    <h2 class="hero__header">This website is awesome</h2>
-                    <p class="hero__text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                    <button class="btn btn--primary">Sign up</button>
+                <div class="hero__container-row">
+                    <div class="hero__container-col">
+                        <h2 class="hero__header">This website is awesome</h2>
+                        <p class="hero__text">
+                            This website has some subtext that goes here under the main title. It's a smaller font and
+                            the color is lower contrast.
+                        </p>
+                        <button class="btn btn--primary">Sign up</button>
+                    </div>
+                    <img
+                        class="hero__img"
+                        src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Blue Abstract"
+                    />
                 </div>
-                <img class="hero__img" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blue Abstract">
             </section>
 
             <section class="gallery">
                 <h2 class="gallery__header">Some random information.</h2>
                 <div class="gallery__container">
                     <div class="gallery__card">
-                        <img class="gallery__img" src="https://images.unsplash.com/photo-1541512416146-3cf58d6b27cc?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Black and White Abstract Art" >
-                        <p class="gallery__text">
-                            this is some subtext under and illustration or image
-                        </p>
+                        <img
+                            class="gallery__img"
+                            src="https://images.unsplash.com/photo-1541512416146-3cf58d6b27cc?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Black and White Abstract Art"
+                        />
+                        <p class="gallery__text">this is some subtext under and illustration or image</p>
                     </div>
                     <div class="gallery__card">
-                        <img class="gallery__img" src="https://images.unsplash.com/photo-1512413914633-b5043f4041ea?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Green Abstract Art" >
-                        <p class="gallery__text">
-                            this is some subtext under and illustration or image
-                        </p>
+                        <img
+                            class="gallery__img"
+                            src="https://images.unsplash.com/photo-1512413914633-b5043f4041ea?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Green Abstract Art"
+                        />
+                        <p class="gallery__text">this is some subtext under and illustration or image</p>
                     </div>
                     <div class="gallery__card">
-                        <img class="gallery__img" src="https://images.unsplash.com/photo-1420442442888-15c96323ec3c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tree Bark" >
-                        <p class="gallery__text">
-                            this is some subtext under and illustration or image
-                        </p>
+                        <img
+                            class="gallery__img"
+                            src="https://images.unsplash.com/photo-1420442442888-15c96323ec3c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Tree Bark"
+                        />
+                        <p class="gallery__text">this is some subtext under and illustration or image</p>
                     </div>
                     <div class="gallery__card">
-                        <img class="gallery__img" src="https://images.unsplash.com/photo-1523372102243-c9426fc31b88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dirty White Abstract Art" >
-                        <p class="gallery__text">
-                            this is some subtext under and illustration or image
-                        </p>
+                        <img
+                            class="gallery__img"
+                            src="https://images.unsplash.com/photo-1523372102243-c9426fc31b88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Dirty White Abstract Art"
+                        />
+                        <p class="gallery__text">this is some subtext under and illustration or image</p>
                     </div>
                 </div>
             </section>
 
             <section class="quote">
-                <p class="quote__text">
-                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-                </p>
-                <p class="quote__source">
-                    <strong>-Thor, God of Thunder</strong>
-                </p>
+                <div class="quote__container">
+                    <p class="quote__text">
+                        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
+                        or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                    </p>
+                    <p class="quote__source">
+                        <strong>-Thor, God of Thunder</strong>
+                    </p>
+                </div>
             </section>
 
             <section class="call-to-action">
@@ -81,9 +103,7 @@
         </main>
 
         <footer class="footer">
-            <p class="footer__text">
-                Copyright © The Odin Project 2024
-            </p>
+            <p class="footer__text">Copyright © The Odin Project 2024</p>
         </footer>
     </body>
 </html>
